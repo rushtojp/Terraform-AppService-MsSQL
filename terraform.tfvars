@@ -1,0 +1,8 @@
+resource_group_name     = "SCAProject22"
+resource_group_location = "eastus"
+app_service_plan_name   = "appservplnscaprj"
+app_service_name        = "inecsearchapp22"
+sql_server_name         = "server4scaprj"
+sql_database_name       = "locationDB"
+sql_admin_login         = "chisomjude"
+sql_admin_password      = "!Sca22Proj"
