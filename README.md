@@ -26,7 +26,7 @@ mkdir <foldername>
 
 > Clone this project 
 ```
-git clone  https://github.com/ChisomJude/IAC-Project4SCA.git
+https://github.com/ChisomJude/Terraform-AppService-MsSQL.git
 ```
 
 > Run the script below
