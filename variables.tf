@@ -37,3 +37,8 @@ variable "sql_admin_password" {
   type        = string
   description = "SQL Server password name in Azure"
 }
+
+variable "storage_acc_name" {
+type          = string
+description   = "Storage Account Name"
+}
