@@ -55,7 +55,7 @@ Name | Description
 
 Created by [Chisom Jude](https://chisomjude.net) For She Code Africa Cloud School 2022 Project <br/>
 Web APP Git Url : https://github.com/ChisomJude/covidsearchcenter/tree/SCA-Project <br/>
-Visit My blog for more details on this project [Deploying 3 Tier Application to Azure App Service via Terraform]([https://blog.chisomjude.net](https://blog.chisomjude.net/deploying-3-tier-application-to-azure-app-service-via-terraform))
+Visit My blog for more details on this project [Deploying 3 Tier Application to Azure App Service via Terraform](https://blog.chisomjude.net/deploying-3-tier-application-to-azure-app-service-via-terraform))
 
 <br/>
 
