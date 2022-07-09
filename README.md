@@ -23,10 +23,13 @@ This Project deploys a web app to Azure App Service, connecting your webfiles fr
 ```
 mkdir <foldername>
 ```
+<br>
+
+> Login to Az Cli using `az login`
 
 > Clone this project 
 ```
-https://github.com/ChisomJude/Terraform-AppService-MsSQL.git
+git clone https://github.com/ChisomJude/Terraform-AppService-MsSQL.git
 ```
 
 > Run the script below
