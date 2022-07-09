@@ -16,7 +16,7 @@ resource "azurerm_service_plan" "plan" {
 }
 
 resource "azurerm_linux_web_app" "app" {
-  name                = "mywebapp4sca"
+  name                = var.app_service_name
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_service_plan.plan.location
   service_plan_id     = azurerm_service_plan.plan.id
@@ -56,7 +56,7 @@ resource "azurerm_mssql_server" "sql" {
 }
 
 resource "azurerm_mssql_database" "db" {
-  name           = "ProductsDB"
+  name           = var.sql_database_name
   server_id      = azurerm_mssql_server.sql.id
   collation      = "SQL_Latin1_General_CP1_CI_AS"
   license_type   = "LicenseIncluded"
@@ -65,7 +65,7 @@ resource "azurerm_mssql_database" "db" {
 }
 
 resource "azurerm_storage_account" "storage" {
-  name                     = "scap01storgeacc"
+  name                     = var.storage_acc_name
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
