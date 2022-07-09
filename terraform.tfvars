@@ -6,5 +6,6 @@ sql_server_name         = "<complete this>"
 sql_database_name       = "<complete this>"
 sql_admin_login         = "<complete this>"
 sql_admin_password      = "<complete this>"
+storage_acc_name        = "<complete this>"
 
 #Ensure to enter unique values for this before running 'terraform apply'
