@@ -10,10 +10,11 @@ This Project deploys a web app to Azure App Service, connecting your webfiles fr
 
 
 ## Requirements and Knowledge
-* Git Account
-* Azure Account
-* Terraform 
-* MSSQL 
+* Git Account and Git installed on your host
+* Azure Account with an active susbcription
+* Azure CLI installed on your host
+* Terraform installed on your host
+
 
 ## Usage
 
@@ -34,7 +35,7 @@ git clone https://github.com/ChisomJude/Terraform-AppService-MsSQL.git
 
 > Run the script below
 ```
-terraform Init
+terraform init
 terraform plan #optional
 terraform apply
 ```
